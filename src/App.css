@@ -1,0 +1,61 @@
+
+body{
+    margin: 0;
+    margin-top: 10%;
+    
+    background-color: black;
+    font-family: system-ui;
+    display: flex;
+    place-content: center;
+    
+}
+
+.tw-followCard-article{
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.tw-followCard-header{
+    display:flex ;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.tw-followCard-userAndName{
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+
+}
+
+.tw-followCard-avatar{
+    inline-size: 6rem;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+
+.tw-followCard-button:hover{
+    background-color: lightskyblue;
+ }
+ 
+
+.tw-followCard-button{
+    
+    cursor: pointer;
+    
+    margin-left: 12px;
+    border: 0;
+    border-radius: 999px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: bold;
+}
+
